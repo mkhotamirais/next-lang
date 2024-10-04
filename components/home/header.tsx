@@ -11,7 +11,7 @@ export default function Header() {
   const menuHref = t("href").split("|");
 
   return (
-    <header className="">
+    <header className="sticky top-0 z-50">
       <div className="container">
         <div className="flex justify-between h-16 items-center">
           <div>
