@@ -32,6 +32,9 @@ export default async function RootLayout({
   const messages = await getMessages();
   return (
     <html lang={locale}>
+      <head>
+        <link rel="icon" href="/logo.svg" type="image/svg+xml" />
+      </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen`}>
         <NextIntlClientProvider messages={messages}>
           <Header />
