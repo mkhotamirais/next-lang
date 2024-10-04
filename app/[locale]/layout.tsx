@@ -26,14 +26,14 @@ export default async function RootLayout({
   unstable_setRequestLocale(locale);
 
   return (
-    <html lang={locale}>
+    <html lang={locale} dir={locale === "ar" ? "rtl" : "ltr"}>
       <head>
         <link rel="icon" href="/logo.svg" type="image/svg+xml" />
       </head>
       <body className={`antialiased flex flex-col min-h-screen`}>
         <NextIntlClientProvider messages={messages}>
           <Header />
-          <main className="grow container">{children}</main>
+          <main className="grow container prose lg:prose-lg">{children}</main>
           <Footer />
         </NextIntlClientProvider>
       </body>

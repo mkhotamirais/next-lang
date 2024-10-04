@@ -1,8 +1,14 @@
 {
+    "Nav": {
+        "menu": "beranda|tentang",
+        "href": "/|/about"
+    },
     "HomePage": {
-        "title": "Halo Dunia!"
+        "title": "Halo Dunia!",
+        "description": "Website ini dibangun menggunakan Next.js, dengan penerjemahan dinamis yang didukung oleh next-intl, memungkinkan pergantian bahasa yang mulus antara bahasa Inggris, Arab, dan lainnya. Dirancang untuk kinerja dan aksesibilitas yang optimal, situs ini menawarkan pengalaman multibahasa yang lancar dan disesuaikan untuk pengguna di seluruh dunia.",
+        "cta": "tentang"
     },
     "AboutPage": {
-        "title": "Halaman Tentang"
+        "title": "Tentang"
     }
 }

@@ -1,8 +1,14 @@
 {
+    "Nav": {
+        "menu": "home|about",
+        "href": "/|/about"
+    },
     "HomePage": {
-        "title": "Hello World"
+        "title": "Hello World",
+        "description": "This website is built using Next.js, with dynamic internationalization powered by next-intl, allowing seamless language switching between English, Arabic, and more. Designed for optimal performance and accessibility, it offers a smooth, multilingual experience tailored to users worldwide.",
+        "cta": "About"
     },
     "AboutPage": {
-        "title": "About Page"
+        "title": "About"
     }
 }
